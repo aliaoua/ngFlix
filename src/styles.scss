@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/modern-normalize/modern-normalize.css";
+@import "../node_modules/primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+@import "primeng/resources/themes/md-dark-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  background-color: #141414;
+}
+h1 {
+  font-weight: 400;
+  font-size: 1em;
+}
+.container {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.p-image-preview-indicator .ng-tns-c1006855317-1 .ng-star-inserted {
+  width: 100%;
+}
